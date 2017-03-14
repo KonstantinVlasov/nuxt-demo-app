@@ -1,0 +1,22 @@
+table {
+  border-radius: 3px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+
+  th {
+    font-family: "Helvetica Neue", Calibri, Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: left;
+  }
+
+  td, th {
+    padding: 0.5rem 1rem;
+  }
+  tr:nth-child(odd) td {
+    background-color: #fff;
+  }
+  tr:nth-child(even) td {
+    background-color: #f8f8f8;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "airbus-web",
+  "version": "1.0.0",
+  "description": "Airbus Web App Demo",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "mini-toastr": "^0.6.3",
+    "node-sass": "^4.5.0",
+    "normalize.css": "^5.0.0",
+    "nuxt": "^0.9.9",
+    "pug": "^2.0.0-beta11",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.13.2",
+    "vue-notifications": "^0.7.6"
+  }
+}

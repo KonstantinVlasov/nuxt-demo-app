@@ -1,0 +1,37 @@
+@import "vars";
+
+$input-size: 2rem;
+
+form {
+  label {
+    position: relative;
+    display: block;
+    margin-bottom: 1rem;
+    height: $input-size;
+    line-height: $input-size;
+
+    span {
+      display: inline-block;
+      width: 100px;
+    }
+
+    input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: $input-size;
+      line-height: $input-size;
+      padding-left: 100px;
+      background: none;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid #bbb;
+      transition: 0.4s all ease;
+
+      &:focus {
+        border-color: $color-blue;
+      }
+    }
+  }
+}
