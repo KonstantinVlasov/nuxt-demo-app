@@ -37,7 +37,7 @@
           this.file = files[0]
         }
       },
-      uploadFile () {
+      uploadFile (springApi) {
         let data = new FormData()
         data.append('file', this.file)
 
