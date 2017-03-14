@@ -4,6 +4,10 @@ table {
   overflow: hidden;
   box-shadow: 0 1px 3px rgba(0,0,0,0.15);
 
+  &.-wide {
+    width: 100%;
+  }
+
   th {
     font-family: "Helvetica Neue", Calibri, Arial, sans-serif;
     background-color: #f8f8f8;
@@ -17,6 +21,6 @@ table {
     background-color: #fff;
   }
   tr:nth-child(even) td {
-    background-color: #f8f8f8;
+    background-color: #f6f6f6;
   }
 }
